@@ -78,6 +78,7 @@ h1 {
     font-family: Arial;
     font-weight: 600;
     font-size: 15pt;
+    margin-bottom: 15px;
 }
 
 a:link, a:visited {
@@ -90,6 +91,10 @@ a:hover {
     text-decoration: underline;
 }
 
+p {
+    
+}
+
 footer {
     text-align: center;
     background-color: #d8d8d8;
@@ -97,7 +102,7 @@ footer {
     background-repeat: repeat-x;
     padding: 25px;
     margin-top: 25px;
-    height:20%;
+    height: 200px;
     font-family: Arial;
     font-size: 10pt;
     color: #8d8d8d;
@@ -111,6 +116,12 @@ footer a:link, a:visited {
 
 footer a:hover {
     color: #3d3d3d;
+}
+
+div.sitemap {
+    float: left;
+    padding-left: 10%;
+    overflow: hidden;
 }
 
 /* Below are the display elements for the products in the home page */
