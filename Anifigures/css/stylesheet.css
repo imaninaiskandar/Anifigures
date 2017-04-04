@@ -2,7 +2,7 @@
 
 body {
     background-color: #ffffff;
-    background-image: url('images/top.png');
+    background-image: url('/images/top.png');
     background-repeat: repeat-x;
 }
 
@@ -25,14 +25,14 @@ nav {
     background-color: #d8d8d8;
     height: 5%;
     padding: 12px;
-    background-image: url('images/overlay.png');
+    background-image: url('/images/overlay.png');
     background-repeat: repeat-x;
 }
 
 nav a:link, a:visited {
     color: #595757;
     font-family: Arial;
-    font-size: 14pt;
+    font-size: 13pt;
     padding: 12px;
     font-weight: 600;
     text-transform:uppercase;   
@@ -41,9 +41,11 @@ nav a:link, a:visited {
     margin-right: 5px;
 }
 
+/* Transition code retrieved from https://www.w3schools.com/css/css3_transitions.asp */
+
 nav a:hover {
     background-color: #77599f;
-    background-image: url('images/overlay.png');
+    background-image: url('/images/overlay.png');
     color: #ffffff;
     transition-duration: 0.5s;
 }
@@ -57,11 +59,11 @@ article {
     margin-top: 20px;
 }
 
-/* The property below was coded for the welcome message in the home page */
+/* The div class below was coded for the welcome message in the home page */
 
 div.welcome {
     background-color: #d6ced9;
-    background-image: url('images/overlay.png');
+    background-image: url('/images/overlay.png');
     background-repeat: repeat-x;
     width: 50%;
     max-width: 500px;
@@ -79,6 +81,7 @@ h1 {
     font-weight: 600;
     font-size: 15pt;
     margin-bottom: 15px;
+    margin-top: 10px;
 }
 
 a:link, a:visited {
@@ -92,24 +95,28 @@ a:hover {
 }
 
 p {
-    
+    margin: 2px;
+    padding: 15px;
 }
+
+/* Below are codes related to the footer */
 
 footer {
     text-align: center;
     background-color: #d8d8d8;
-    background-image: url('images/overlay.png');
+    background-image: url('/images/overlay.png');
     background-repeat: repeat-x;
     padding: 25px;
     margin-top: 25px;
-    height: 200px;
+    height: 150px;
     font-family: Arial;
     font-size: 10pt;
-    color: #8d8d8d;
+    color: #4d4d4d;
+
 }
 
 footer a:link, a:visited {
-    color: #656565;
+    color: #8f8f8f;
     text-decoration: none;
     font-weight:bold;
 }
@@ -118,31 +125,26 @@ footer a:hover {
     color: #3d3d3d;
 }
 
-div.sitemap {
-    float: left;
-    padding-left: 10%;
-    overflow: hidden;
-}
 
 /* Below are the display elements for the products in the home page */
 
 div.products {
     overflow: hidden;
-    width: 80%;
+    width: 75%;
+    margin: auto;
     margin-left: auto;
     margin-right: auto;
 }
 
 div.pro {
-    background-image: url('images/overlay.png');
+    background-image: url('/images/overlay.png');
     background-repeat: repeat-x;
     background-color: #f8f8f8;
     box-shadow: 0px 0px 3px #b5b5b5;
-    height: 500px;
-    width: 300px;
-    max-height: 450px;
-    margin: 10px;
     float: left;
+    width: 300px;
+    height: 450px;
+    margin: 10px;
     padding: 15px;
     padding-top: -10px;
 }
@@ -163,6 +165,7 @@ div.pro a:hover {
     text-decoration: none;
 }
 
+/* This label indicates the figure's series of origin */
 div.series {
     color: #c32d62;
     font-weight: 700;
@@ -170,6 +173,7 @@ div.series {
 
 }
 
+/* This label indicates the figure's manufacturer */
 div.manufacturer {
     color: #3180d9;
     font-weight: 600;
@@ -185,7 +189,8 @@ div.price {
     float: right;
 }
 
-/* Below are button indicators to indicate item-stock */
+/* Below are button indicators to indicate item-stock in the homepage */
+/* Button codes referenced from https://www.w3schools.com/css/css3_buttons.asp  */
 
 button {
     background-color: #df5586;
@@ -199,34 +204,40 @@ button {
     border-radius: 5%;
 }
 
+    /* "Pre-Order" tag */
 button.po {
     background-color: #df5586;
 }
 
+    /* "New Arrival" tag */
 button.na {
     background-color: #4f8ee8;
 }
 
+    /* "In-Stock" tag */
 button.is {
     background-color: #be8ddb;
 }
 
+    /* "Out-of-Stock" tag */
 button.oos {
     background-color: #8c3c44;
 }
 
+    /* "Add to Cart" button*/
 button.atc {
-    background-image: url('images/overlay.png');
+    background-image: url('/images/overlay.png');
     background-color: #5e5e5e;
     float: right;
 }
 
 button.atc:hover {
-    background-color: #8f6d6d;
+    background-color: #8e8d8e;
 }
 
+    /* "Backorder" button*/
 button.bo {
-    background-image: url('images/overlay.png');
+    background-image: url('/images/overlay.png');
     background-color: #866161;
     float: right;
 }
@@ -236,11 +247,12 @@ button.bo:hover {
 }
 
 /* Below are properties related to the contact page */
+/* Codes referenced from https://www.w3schools.com/howto/howto_css_contact_form.asp */
 
 div.contact {
     text-align: center;
     margin: auto;
-    width: 45%;
+    width: 50%;
     overflow: hidden;
 }
 

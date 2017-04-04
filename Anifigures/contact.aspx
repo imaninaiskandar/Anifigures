@@ -7,8 +7,9 @@
 
     <div class="contact">
         <div class="map">
+
             <p><b>Our location</b></p>
-        <img src="/images/location.png" alt="Located at LCB">
+        <img src="/images/location.png" alt="Our location">
         </div>
 
         <div class="contactform">
