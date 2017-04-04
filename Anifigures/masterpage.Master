@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <link rel="stylesheet" href="stylesheet.css" />
+
+        <title>Anifigures</title>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+    <div>
+            <header>
+             <a href="/default.aspx"><img src="images/logo.png"/></a>
+            </header>
+
+            <nav>
+                <a href="/default.aspx">Home</a>
+                <a href="/">About</a>
+                <a href="/">FAQ</a>
+                <a href="/contact.aspx">Contact</a>
+                <a href="/">Login</a>
+            </nav>
+
+            <div class="container">
+
+            <article>
+                 <asp:ContentPlaceHolder id="content" runat="server">
+
+                </asp:ContentPlaceHolder>
+            </article>
+
+            </div>
+
+        <footer>
+            
+                Copyright 2017. All rights reserved.  | 
+            <a href="http://achecker.ca/checker/?uri=referer">Accessibility Checker</a> | 
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a> | 
+            <a href="/">Admin</a>
+
+        </footer>
+    </div>
+        
+    </form>
+</body>
+</html>
+

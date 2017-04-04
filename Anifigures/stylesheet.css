@@ -1,0 +1,275 @@
+﻿/* Various CSS codes were referenced from the W3Schools CSS Reference Sheet https://www.w3schools.com/cssref/default.asp */
+
+body {
+    background-color: #ffffff;
+    background-image: url('images/top.png');
+    background-repeat: repeat-x;
+}
+
+header {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+
+}
+
+header img {
+    max-width: 500px;
+    width: 50%;
+}
+
+/* These properties were coded for the navigation below the site logo */
+
+nav {
+    text-align: center;
+    background-color: #d8d8d8;
+    height: 5%;
+    padding: 12px;
+    background-image: url('images/overlay.png');
+    background-repeat: repeat-x;
+}
+
+nav a:link, a:visited {
+    color: #595757;
+    font-family: Arial;
+    font-size: 14pt;
+    padding: 12px;
+    font-weight: 600;
+    text-transform:uppercase;   
+    text-decoration:none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+nav a:hover {
+    background-color: #77599f;
+    background-image: url('images/overlay.png');
+    color: #ffffff;
+    transition-duration: 0.5s;
+}
+
+article {
+    font-family: Arial;
+    font-size: 11pt;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* The property below was coded for the welcome message in the home page */
+
+div.welcome {
+    background-color: #d6ced9;
+    background-image: url('images/overlay.png');
+    background-repeat: repeat-x;
+    width: 50%;
+    max-width: 500px;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin: auto;
+    margin-bottom: 2%;
+    font-size: 13pt;
+}
+
+h1 {
+    text-align: center;
+    color: #645b68;
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 15pt;
+}
+
+a:link, a:visited {
+    color: #d5467c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4085e2;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background-color: #d8d8d8;
+    background-image: url('images/overlay.png');
+    background-repeat: repeat-x;
+    padding: 25px;
+    margin-top: 25px;
+    height:20%;
+    font-family: Arial;
+    font-size: 10pt;
+    color: #8d8d8d;
+}
+
+footer a:link, a:visited {
+    color: #656565;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+footer a:hover {
+    color: #3d3d3d;
+}
+
+/* Below are the display elements for the products in the home page */
+
+div.products {
+    overflow: hidden;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.pro {
+    background-image: url('images/overlay.png');
+    background-repeat: repeat-x;
+    background-color: #f8f8f8;
+    box-shadow: 0px 0px 3px #b5b5b5;
+    height: 500px;
+    width: 300px;
+    max-height: 450px;
+    margin: 10px;
+    float: left;
+    padding: 15px;
+    padding-top: -10px;
+}
+
+div.pro img {
+    max-height: 280px;
+    transition-duration: 0.5s;
+}
+
+div.pro a {
+    font-weight: 600;
+    font-size: 10pt;
+}
+
+div.pro a:hover {
+    color: #b251e5;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+div.series {
+    color: #c32d62;
+    font-weight: 700;
+    font-size: 10pt;
+
+}
+
+div.manufacturer {
+    color: #3180d9;
+    font-weight: 600;
+    font-size: 10pt;
+    margin-bottom: 15px;
+}
+
+div.price {
+    font-weight: 600;
+    color: #717171;
+    font-size: 13pt;
+    margin: 10px;
+    float: right;
+}
+
+/* Below are button indicators to indicate item-stock */
+
+button {
+    background-color: #df5586;
+    box-shadow: 0px 0px 5px #bfbfbf;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    padding: 10px 30px;
+    margin-bottom: 5px;
+    border-radius: 5%;
+}
+
+button.po {
+    background-color: #df5586;
+}
+
+button.na {
+    background-color: #4f8ee8;
+}
+
+button.is {
+    background-color: #be8ddb;
+}
+
+button.oos {
+    background-color: #8c3c44;
+}
+
+button.atc {
+    background-image: url('images/overlay.png');
+    background-color: #5e5e5e;
+    float: right;
+}
+
+button.atc:hover {
+    background-color: #8f6d6d;
+}
+
+button.bo {
+    background-image: url('images/overlay.png');
+    background-color: #866161;
+    float: right;
+}
+
+button.bo:hover {
+    background-color: #c8a8a8;
+}
+
+/* Below are properties related to the contact page */
+
+div.contact {
+    text-align: center;
+    margin: auto;
+    width: 45%;
+    overflow: hidden;
+}
+
+div.contactform {
+    text-align: left;
+    width: 50%;
+}
+
+div.map {
+    float: right;
+}
+
+input[type=text]{
+    width: 400px;
+    height: 40px;
+    background-color: #d8d8d8;
+    font-size: 110%;
+    border: none;
+    box-shadow: 0px 0px 10px #d8d8d8;
+    padding: 5px;
+}
+
+textarea {
+    font-family: Arial;
+    width: 400px;
+    background-color: #d8d8d8;
+    font-size: 110%;
+    border: none;
+    box-shadow: 0px 0px 10px #d8d8d8;
+    padding: 5px;
+}
+
+input[type=submit]{
+    height: 50px;
+    width: 125px;
+    text-align: center;
+    margin: auto;
+}
+
+div.submit {
+    margin: auto;
+    text-align: center;
+}
