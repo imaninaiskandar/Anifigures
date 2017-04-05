@@ -29,7 +29,7 @@
 
             <div class="pro">
                 <button class="po">Pre-order</button> 
-                    <a href="/"><img src="/images/figures/alter-eli/1.jpg" alt="Café Maid Eli"/>
+                    <a href="/"><img src="images/figures/alter-eli/1.jpg" alt="Café Maid Eli"/>
                         <!-- Image retrieved from http://s1.tsuki-board.net/pics/figure/large/317826.jpg?r=1484100996 -->
 
                     <p>Eli Ayase - Café Maid (1/8)</p></a>
