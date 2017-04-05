@@ -2,7 +2,7 @@
 
 body {
     background-color: #ffffff;
-    background-image: url('/images/top.png');
+    background-image: url('images/top.png');
     background-repeat: repeat-x;
 }
 
@@ -25,7 +25,7 @@ nav {
     background-color: #d8d8d8;
     height: 5%;
     padding: 12px;
-    background-image: url('/images/overlay.png');
+    background-image: url('images/overlay.png');
     background-repeat: repeat-x;
 }
 
@@ -45,7 +45,7 @@ nav a:link, a:visited {
 
 nav a:hover {
     background-color: #77599f;
-    background-image: url('/images/overlay.png');
+    background-image: url('images/overlay.png');
     color: #ffffff;
     transition-duration: 0.5s;
 }
@@ -63,7 +63,7 @@ article {
 
 div.welcome {
     background-color: #d6ced9;
-    background-image: url('/images/overlay.png');
+    background-image: url('images/overlay.png');
     background-repeat: repeat-x;
     width: 50%;
     max-width: 500px;
@@ -84,6 +84,17 @@ h1 {
     margin-top: 10px;
 }
 
+h2 {
+    text-align: center;
+    color: #7e6da0;
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 13pt;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+
 a:link, a:visited {
     color: #d5467c;
     text-decoration: none;
@@ -99,12 +110,16 @@ p {
     padding: 15px;
 }
 
+b {
+    font-weight: 700;
+}
+
 /* Below are codes related to the footer */
 
 footer {
     text-align: center;
     background-color: #d8d8d8;
-    background-image: url('/images/overlay.png');
+    background-image: url('images/overlay.png');
     background-repeat: repeat-x;
     padding: 25px;
     margin-top: 25px;
@@ -116,13 +131,13 @@ footer {
 }
 
 footer a:link, a:visited {
-    color: #8f8f8f;
+    color: #3d3d3d;
     text-decoration: none;
     font-weight:bold;
 }
 
 footer a:hover {
-    color: #3d3d3d;
+    color: #8f8f8f;
 }
 
 
@@ -137,7 +152,7 @@ div.products {
 }
 
 div.pro {
-    background-image: url('/images/overlay.png');
+    background-image: url('images/overlay.png');
     background-repeat: repeat-x;
     background-color: #f8f8f8;
     box-shadow: 0px 0px 3px #b5b5b5;
@@ -226,7 +241,7 @@ button.oos {
 
     /* "Add to Cart" button*/
 button.atc {
-    background-image: url('/images/overlay.png');
+    background-image: url('images/overlay.png');
     background-color: #5e5e5e;
     float: right;
 }
@@ -237,7 +252,7 @@ button.atc:hover {
 
     /* "Backorder" button*/
 button.bo {
-    background-image: url('/images/overlay.png');
+    background-image: url('images/overlay.png');
     background-color: #866161;
     float: right;
 }
@@ -252,17 +267,22 @@ button.bo:hover {
 div.contact {
     text-align: center;
     margin: auto;
-    width: 50%;
+    width: 70%;
     overflow: hidden;
 }
 
 div.contactform {
-    text-align: left;
-    width: 50%;
+    width: 60%;
+    float: left;
+    position: static;
+    background-color: #ffffff;
+
 }
 
-div.map {
+div.info {
     float: right;
+    width: 40%;
+    position: static;
 }
 
 input[type=text]{

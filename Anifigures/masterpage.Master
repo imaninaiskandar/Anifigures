@@ -20,11 +20,11 @@
             </header>
 
             <nav>
-                <a href="/default.aspx">Home</a>
-                <a href="/about.aspx">About</a>
-                <a href="/faq.aspx">FAQ</a>
-                <a href="/contact.aspx">Contact</a>
-                <a href="/login.aspx">Login</a>
+                <a href="default.aspx">Home</a>
+                <a href="about.aspx">About</a>
+                <a href="faq.aspx">FAQ</a>
+                <a href="contact.aspx">Contact</a>
+                <a href="login.aspx">Login</a>
             </nav>
 
             <div class="container">
@@ -39,12 +39,12 @@
 
         <footer>
            
-            <p><a href="/default.aspx">Home</a> | 
-              <a href="/about.aspx">About</a> | 
-              <a href="/faq.aspx">FAQ</a> | 
-              <a href="/contact.aspx">Contact Us</a> | 
-              <a href="/login.aspx">Login</a> | 
-              <a href="/cart.aspx">Your Cart</a>
+            <p><a href="default.aspx">Home</a> | 
+              <a href="about.aspx">About</a> | 
+              <a href="faq.aspx">FAQ</a> | 
+              <a href="contact.aspx">Contact Us</a> | 
+              <a href="login.aspx">Login</a> | 
+              <a href="cart.aspx">Your Cart</a>
            </p> 
             
           

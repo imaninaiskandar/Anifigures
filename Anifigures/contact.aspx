@@ -3,16 +3,28 @@
 
     <h1>Contact Us</h1>
 
-    <p>For any queries, please refer to the <a href="/faq.aspx/">FAQ</a> page first. Otherwise, feel free to use the form below.</p>
+    <p>For any queries, please refer to the <a href="faq.aspx">FAQ</a> page first. Otherwise, feel free to use the form below.</p>
 
     <div class="contact">
-        <div class="map">
+        
+       <div class="info">
+            <h2>Call Us</h2>
 
-            <p><b>Our location</b></p>
-        <img src="/images/location.png" alt="Our location">
-        </div>
+             <p>+673 123 4567</p>
 
-        <div class="contactform">
+            <h2>Address</h2>
+
+            <p>Roof Top, Plaza Abdul Razak, Jalan Laksamana Abdul Razak, Bandar Seri Begawan, Negara Brunei Darussalam</p>
+            <!-- LCB address retrieved from http://www.lcb.edu.bn/ -->
+
+            <h2>Our location</h2>
+
+                <img src="images/location.png" alt="Our location">
+       </div>
+
+       
+       <div class="contactform">
+
             <p><b>Name:</b></p>
                 <input id="name" type="text" placeholder="Your name">
 
@@ -31,7 +43,8 @@
                <p><input id="submit" type="submit" value="Send" /></p>
             </div>
 
-        </div>
+        </div>  
+        
     </div>
 
 
