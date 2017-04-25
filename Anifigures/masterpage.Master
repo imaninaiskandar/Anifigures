@@ -16,7 +16,7 @@
 <body>
     <form id="form1" runat="server">
             <header>
-                <a href="/default.aspx"><img src="images/logo.png" alt="Anifigures Logo"></a>
+                <a href="default.aspx"><img src="images/logo.png" alt="Anifigures Logo"></a>
             </header>
 
             <nav>

@@ -25,22 +25,33 @@
        
        <div class="contactform">
 
-            <p><b>Name:</b></p>
-                <input id="name" type="text" placeholder="Your name">
+            <p><b><asp:Label ID="lname" runat="server" Text="Name"></asp:Label></b></p>
 
-            <p><b>Email Address:</b></p>
-                <input id="email" type="text" placeholder="username@example.com">
+                <p><asp:TextBox ID="name" runat="server" placeholder="Name"></asp:TextBox></p>
+                <p><asp:RequiredFieldValidator ID="namevalidate" runat="server" ErrorMessage="Required" ControlToValidate="name" ForeColor="Red"></asp:RequiredFieldValidator></p>
+           
 
-            <p><b>Subject:</b></p>
-                <input id="subject" type="text" placeholder="Your subject">
+            <p><b><asp:Label ID="lemail" runat="server" Text="Your Email"></asp:Label></b></p>
+                <p><asp:TextBox ID="email" runat="server" placeholder="username@example.com"></asp:TextBox></p>
+               
+                <p><asp:RequiredFieldValidator ID="emailvalidate" runat="server" ErrorMessage="Required" ControlToValidate="email" ForeColor="Red"></asp:RequiredFieldValidator></p>
 
+                <p><asp:RegularExpressionValidator ID="emailcheck" runat="server" ErrorMessage="Enter a valid email" ControlToValidate="email" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ForeColor="Red"></asp:RegularExpressionValidator></p>
+               
 
-              <p><b>Comment:</b></p>
-                 <textarea rows="8" id="comment" placeholder="Type out your comment here"></textarea>
+            <p><b><asp:Label ID="lsubject" runat="server" Text="Subject"></asp:Label></b></p>
+                <p><asp:TextBox ID="subject" runat="server" placeholder="Your subject"></asp:TextBox></p>
+                <p><asp:RequiredFieldValidator ID="subjectvalidate" runat="server" ErrorMessage="Required" ControlToValidate="subject" ForeColor="Red"></asp:RequiredFieldValidator></p>               
+               
 
+            <p><b><asp:Label ID="lcomment" runat="server" Text="Comment"></asp:Label></b></p>
+                 <p><asp:TextBox ID="comment" runat="server" placeholder="Enter your message here" Height="250px" TextMode="MultiLine"></asp:TextBox></p>        
+                 <p><asp:RequiredFieldValidator ID="commentvalidate" runat="server" ErrorMessage="Required" ControlToValidate="comment" ForeColor="Red"></asp:RequiredFieldValidator></p>
+                
 
             <div class="submit">
-               <p><input id="submit" type="submit" value="Send" /></p>
+                <p><asp:Button ID="send" runat="server" Text="Send" OnClick="send_Click" /></p>
+              
             </div>
 
         </div>  
