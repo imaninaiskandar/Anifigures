@@ -16,6 +16,8 @@ namespace Anifigures
 
         protected void send_Click(object sender, EventArgs e)
         {
+
+
             SmtpClient form = new SmtpClient();
             form.Host = "smtp.gmail.com";
             form.Port = 587;
@@ -39,9 +41,6 @@ namespace Anifigures
             email.Text = "";
             subject.Text = "";
             comment.Text = "";
-
-            
-
 
         }
     }

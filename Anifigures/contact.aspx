@@ -1,9 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/masterpage.Master" AutoEventWireup="true" CodeBehind="contact.aspx.cs" Inherits="Anifigures.contact" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="content" runat="server">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?&callback=initMap">
+    </script>
 
     <h1>Contact Us</h1>
 
-    <p>For any queries, please refer to the <a href="faq.aspx">FAQ</a> page first. Otherwise, feel free to use the form below.</p>
+    <p>For any queries, please refer to the <a href="faq.aspx">FAQ</a> page first. Otherwise, feel free to use the form below for any other questions.</p>
 
     <div class="contact">
         
@@ -18,8 +20,14 @@
             <!-- LCB address retrieved from http://www.lcb.edu.bn/ -->
 
             <h2>Our location</h2>
+            
+           <div id="maplocation">
+               <script src="js/map.js"></script>   
+               <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBboMNiVVPU0p-u7txzVGxBv1kRVX9b7tw&callback=initMap" async defer></script>
+                
+                 <!-- The code above was retrieved from https://developers.google.com/maps/documentation/javascript/adding-a-google-map -->
+           </div>
 
-                <img src="images/location.png" alt="Our location">
        </div>
 
        
@@ -50,7 +58,7 @@
                 
 
             <div class="submit">
-                <p><asp:Button ID="send" runat="server" Text="Send" OnClick="send_Click" /></p>
+                <p><asp:Button class="button" ID="send" runat="server" Text="Send" OnClick="send_Click" /></p>
               
             </div>
 

@@ -333,15 +333,28 @@ input[type=text], [type=Email], textarea{
 }
 
 
-input[type=button]{
+.button {
+    background-image: url('../images/deco/overlay.png');
     height: 50px;
     width: 125px;
     text-align: center;
     margin: auto;
-    background-color: black;
+    border: none;
+    transition: 0.2s;
+    font-weight: 600;
+}
+
+.button:hover {
+    background-color: #ae8db9;
+    color: #ffffff;
 }
 
 div.submit {
     margin: auto;
     text-align: center;
+}
+
+#maplocation {
+    width: 100%;
+    height: 400px;
 }
