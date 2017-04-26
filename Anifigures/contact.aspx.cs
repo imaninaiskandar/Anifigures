@@ -31,7 +31,7 @@ namespace Anifigures
             MailMessage message = new MailMessage("anifigures@gmail.com", "anifigures@gmail.com");
 
             message.Subject = "[Contact Form Enquiry]" + " " + subject.Text;
-            message.Body = "This message was sent by " + name.Text + "" + "(" + email.Text + "):" + "" + "\n"
+            message.Body = "This message was sent by " + name.Text + " " + "(" + email.Text + "):" + "" + "\n"
                            + "\n" + comment.Text;
 
             form.Send(message);
