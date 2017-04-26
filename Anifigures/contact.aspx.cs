@@ -17,7 +17,6 @@ namespace Anifigures
         protected void send_Click(object sender, EventArgs e)
         {
 
-
             SmtpClient form = new SmtpClient();
             form.Host = "smtp.gmail.com";
             form.Port = 587;
@@ -32,8 +31,8 @@ namespace Anifigures
             MailMessage message = new MailMessage("anifigures@gmail.com", "anifigures@gmail.com");
 
             message.Subject = "[Contact Form Enquiry]" + " " + subject.Text;
-            message.Body = "This message was sent by " + "<b>" + name.Text + "</b>" + "" + "(" + email.Text + "):" + "\n" + "\n" +
-                            comment.Text;
+            message.Body = "This message was sent by " + name.Text + "" + "(" + email.Text + "):" + "" + "\n"
+                           + "\n" + comment.Text;
 
             form.Send(message);
 

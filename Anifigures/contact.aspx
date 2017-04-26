@@ -1,7 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/masterpage.Master" AutoEventWireup="true" CodeBehind="contact.aspx.cs" Inherits="Anifigures.contact" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="content" runat="server">
-    <script async defer src="https://maps.googleapis.com/maps/api/js?&callback=initMap">
-    </script>
 
     <h1>Contact Us</h1>
 

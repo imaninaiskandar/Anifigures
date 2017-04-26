@@ -25,6 +25,7 @@
                 <a href="faq.aspx">FAQ</a>
                 <a href="contact.aspx">Contact</a>
                 <a href="login.aspx">Login</a>
+                <a href="search.aspx"> 🔎 </a>
             </nav>
 
             <div class="container">
@@ -60,7 +61,7 @@
                       <li><a href="http://validator.w3.org/check?uri=referer">Validate HTML</a></li>
                       <li><a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a></li>
                       <li><a href="http://achecker.ca/checker/?uri=referer">Accessibility Checker</a></li>
-                      <li><a href="/">Admin</a></li>
+                      <li><a href="admin.aspx">Admin</a></li>
                     </ul>
                </div>
 
