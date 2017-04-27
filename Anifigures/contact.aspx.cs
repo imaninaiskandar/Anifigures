@@ -41,6 +41,8 @@ namespace Anifigures
             subject.Text = "";
             comment.Text = "";
 
+            success.Text = "Your message was successfully sent!";
+
         }
     }
 }

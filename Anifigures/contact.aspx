@@ -57,8 +57,10 @@
 
             <div class="submit">
                 <p><asp:Button class="button" ID="send" runat="server" Text="Send" OnClick="send_Click" /></p>
-              
+
             </div>
+
+            <p><b><asp:Label ID="success" runat="server" Text=""></asp:Label></b></p>
 
         </div>  
         
