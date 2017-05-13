@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Anifigures
+namespace Anifigures.admin
 {
-    public partial class faq : System.Web.UI.Page
+    public partial class adminms : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {

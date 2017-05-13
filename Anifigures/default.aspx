@@ -1,16 +1,15 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/masterpage.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Anifigures.Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="content" runat="server">
+
+         <p><img src="images/banners/welcome.png" alt="Welcome" /></p>
+        <!-- Original image was edited from http://vignette1.wikia.nocookie.net/k-on/images/f/f3/Band_name_secured.png/revision/latest?cb=20130402113808 -->
     <div class="welcome">
 
-        <h1>Welcome to Anifigures!</h1>
-
-            <p>A store dedicated to bringing you your beloved characters in figure form!</p>
+            <p>You have just stumbled upon a store dedicated to bringing you your lovelies! All figure-collectors are welcome here!</p>
 
     </div>
 
     <div class="products">
-
-        <!-- Product 1 -->
 
             <div class="pro">
                 <button class="po">Pre-order</button> 
@@ -25,8 +24,6 @@
                     <div class="price">$66.00</div>
              </div>
 
-        <!-- Product 2 -->
-
             <div class="pro">
                 <button class="po">Pre-order</button> 
                     <a href="/"><img src="images/figures/alter-eli/1.jpg" alt="Café Maid Eli"/>
@@ -39,8 +36,6 @@
                 <button class="atc">Add to Cart</button>
                     <div class="price">$290.00</div>
              </div>
-
-        <!-- Product 3 -->
 
             <div class="pro">
                 <button class="po">Pre-order</button> 
@@ -55,7 +50,6 @@
                     <div class="price">$240.00</div>
              </div>
 
-        <!-- Product 4 -->
 
             <div class="pro">
                 <button class="po">Pre-order</button> 
@@ -70,7 +64,6 @@
                     <div class="price">$205.00</div>
              </div>
 
-        <!-- Product 5 -->
 
             <div class="pro">
                 <button class="na">New Arrival</button> 
@@ -85,7 +78,6 @@
                     <div class="price">$55.00</div>
              </div>
 
-        <!-- Product 6 -->
 
             <div class="pro">
                 <button class="na">New Arrival</button> 
@@ -100,8 +92,6 @@
                     <div class="price">$55.00</div>
              </div>
 
-        <!-- Product 7 -->
-
             <div class="pro">
                 <button class="is">In-Stock</button> 
                     <a href="/"><img src="images/figures/stronger-nico/1.jpg"  alt="Birthday Figure Nico"/>
@@ -114,8 +104,6 @@
                 <button class="atc">Add to Cart</button>
                     <div class="price">$125.00</div>
              </div>
-
-        <!-- Product 8 -->
 
             <div class="pro">
                 <button class="is">In-Stock</button> 
@@ -130,7 +118,6 @@
                     <div class="price">$94.00</div>
              </div>
 
-        <!-- Product 9 -->
 
             <div class="pro">
                 <button class="is">In-Stock</button> 
@@ -146,7 +133,6 @@
             
              </div>
 
-        <!-- Product 10 -->
 
             <div class="pro">
                 <button class="oos">Out of Stock</button> 
@@ -162,7 +148,6 @@
             
              </div>
 
-        <!-- Product 11 -->
 
             <div class="pro">
                 <button class="oos">Out of Stock</button> 
@@ -178,7 +163,6 @@
             
              </div>
 
-        <!-- Product 12 -->
 
             <div class="pro">
                 <button class="oos">Out of Stock</button> 

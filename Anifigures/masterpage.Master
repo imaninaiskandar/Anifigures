@@ -22,9 +22,9 @@
             <nav>
                 <a href="default.aspx">Home</a>
                 <a href="about.aspx">About</a>
-                <a href="faq.aspx">FAQ</a>
                 <a href="contact.aspx">Contact</a>
                 <a href="login.aspx">Login</a>
+                <a href="cart.aspx">Cart</a>
                 <a href="search.aspx"> 🔎 </a>
             </nav>
 
@@ -46,7 +46,6 @@
                         <ul>
                           <li><a href="default.aspx">Home</a></li>
                           <li><a href="about.aspx">About</a></li> 
-                          <li><a href="faq.aspx">FAQ</a></li>
                           <li><a href="contact.aspx">Contact Us</a></li>
                           <li><a href="login.aspx">Login</a></li> 
                           <li><a href="cart.aspx">Your Cart</a></li>

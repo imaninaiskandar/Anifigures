@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/masterpage.Master" AutoEventWireup="true" CodeBehind="contact.aspx.cs" Inherits="Anifigures.contact" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="content" runat="server">
 
-    <h1>Contact Us</h1>
-
-    <p>For any queries, please refer to the <a href="faq.aspx">FAQ</a> page first. Otherwise, feel free to use the form below for any other questions.</p>
+    <img src="images/banners/contact.png" alt="Contact Us" />
+    <!-- Original image was edited from https://bandori.pro/assets/star/forassetbundle/asneeded/characters/resourceset/res002005/card_after_training.png -->
+    <p>For any queries, please don't hesitate to use the contact form below.</p>
 
     <div class="contact">
         
