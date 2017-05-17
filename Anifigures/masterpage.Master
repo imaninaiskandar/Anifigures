@@ -23,9 +23,8 @@
                 <a href="default.aspx">Home</a>
                 <a href="about.aspx">About</a>
                 <a href="contact.aspx">Contact</a>
-                <a href="login.aspx">Login</a>
-                <a href="cart.aspx">Cart</a>
-                <a href="search.aspx"> 🔎 </a>
+                <a href="admin/admin_login.aspx">Admin</a>
+
             </nav>
 
             <div class="container">
@@ -47,8 +46,8 @@
                           <li><a href="default.aspx">Home</a></li>
                           <li><a href="about.aspx">About</a></li> 
                           <li><a href="contact.aspx">Contact Us</a></li>
-                          <li><a href="login.aspx">Login</a></li> 
-                          <li><a href="cart.aspx">Your Cart</a></li>
+                          <li><a href="/admin/admin_login.aspx">Admin</a></li>
+
                        </ul>
                </div>
         
@@ -59,8 +58,7 @@
                       <ul>
                       <li><a href="http://validator.w3.org/check?uri=referer">Validate HTML</a></li>
                       <li><a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a></li>
-                      <li><a href="http://achecker.ca/checker/?uri=referer">Accessibility Checker</a></li>
-                      <li><a href="/admin/admin_login.aspx">Admin</a></li>
+                      <li><a href="http://achecker.ca/checker/?uri=referer">Accessibility Checker</a></li>  
                     </ul>
                </div>
 

@@ -19,9 +19,6 @@ header {
     padding-top: 25px;
 }
 
-article {
-
-}
 
 a:link, a:visited {
     color: #5b2f7a;
@@ -40,7 +37,7 @@ div.loginform {
 }
 
 
-input[type=text], [type=Email], textarea{
+input[type=text], [type=Email], [type=password], textarea{
     background-color: #bdbbbf;
     font-family: Arial;
     font-size: 100%;
@@ -62,4 +59,15 @@ input[type=text], [type=Email], textarea{
 
 .loginbutton:hover {
     background-color: #ccc5d8;
+}
+
+
+div.formview {
+    margin:auto;
+    width: 80%;
+}
+
+div.gridview {
+    margin:auto;
+    width: 90%;
 }
