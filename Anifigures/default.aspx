@@ -22,7 +22,7 @@
                         <a href="product.aspx?id=<%# Eval("ProductId")%>"><h2><%# Eval("ProductName") %> </h2>
                         
                     
-                    <img src="<%# Eval("ProductImage") %>"/></a>
+                    <img src="<%# Eval("ProductImage") %>" alt="<%# Eval("ProductName")%>"/></a>
                         <h3>$<%# Eval("ProductPrice") %></h3>
                         <h3><%# Eval("ProductStock") %></h3>
 
