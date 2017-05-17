@@ -308,10 +308,18 @@ div.contact p {
     padding: 2px;
 }
 
-div.contactform {
+/* The property below is used for the login, register and contact pages */
+
+div.form {
     width: 60%;
     float: left;
     position: static;
+    background-color: #ffffff;
+
+}
+
+div.loginform {
+    width: 60%;
     background-color: #ffffff;
 
 }
@@ -322,7 +330,7 @@ div.info {
     position: static;
 }
 
-input[type=text], [type=Email], textarea{
+input[type=text], [type=email], [type=password], textarea{
     width: 400px;
     height: 40px;
     background-color: #d8d8d8;

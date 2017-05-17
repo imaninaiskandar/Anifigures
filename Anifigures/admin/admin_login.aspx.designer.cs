@@ -7,54 +7,63 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Anifigures {
+namespace Anifigures.admin {
     
     
     public partial class login {
         
         /// <summary>
-        /// emlogin control.
+        /// unlabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label emlogin;
+        protected global::System.Web.UI.WebControls.Label unlabel;
         
         /// <summary>
-        /// email control.
+        /// u1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox email;
+        protected global::System.Web.UI.WebControls.TextBox u1;
         
         /// <summary>
-        /// passlogin control.
+        /// passlabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label passlogin;
+        protected global::System.Web.UI.WebControls.Label passlabel;
         
         /// <summary>
-        /// password control.
+        /// p1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox password;
+        protected global::System.Web.UI.WebControls.TextBox p1;
         
         /// <summary>
-        /// buttonlogin control.
+        /// bl1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button buttonlogin;
+        protected global::System.Web.UI.WebControls.Button bl1;
+        
+        /// <summary>
+        /// loginLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label loginLabel;
     }
 }

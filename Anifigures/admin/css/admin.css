@@ -1,0 +1,65 @@
+﻿body {
+    font-family: Arial;
+    font-size: 11pt;
+    color: #2d2d2f;
+    margin: auto;
+    text-align: center;
+  
+}
+
+header {
+    background-color: #3b2c46;
+    height: 24pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+    height: 80px;
+    padding-top: 25px;
+}
+
+article {
+
+}
+
+a:link, a:visited {
+    color: #5b2f7a;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2b262f;
+}
+
+div.loginform {
+    margin-top: 2%;
+    margin: auto;
+    width: 70%;
+}
+
+
+input[type=text], [type=Email], textarea{
+    background-color: #bdbbbf;
+    font-family: Arial;
+    font-size: 100%;
+    border: none;
+    box-shadow: 0px 0px 10px #d8d8d8;
+    padding: 5px;
+}
+
+.loginbutton {
+    background-image: url('../images/deco/overlay.png');
+    height: 50px;
+    width: 125px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    border: none;
+    font-weight: 600;
+}
+
+.loginbutton:hover {
+    background-color: #ccc5d8;
+}

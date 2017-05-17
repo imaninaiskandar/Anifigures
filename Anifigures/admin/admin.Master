@@ -4,17 +4,20 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <link rel="stylesheet" href="css/admin.css" />
+
     <title>Anifigures - Admin</title>
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
 </head>
+
 <body>
-    <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder ID="body" runat="server">
-        
-        </asp:ContentPlaceHolder>
-    </div>
+    <form id="f1" runat="server">
+        <header>Admin</header>
+        <article>
+            <asp:ContentPlaceHolder ID="article" runat="server">
+            
+            </asp:ContentPlaceHolder>
+        </article>
+
     </form>
 </body>
 </html>

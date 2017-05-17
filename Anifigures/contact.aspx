@@ -29,7 +29,7 @@
        </div>
 
        
-       <div class="contactform">
+       <div class="form">
 
             <p><b><asp:Label ID="lname" runat="server" Text="Name"></asp:Label></b></p>
 
